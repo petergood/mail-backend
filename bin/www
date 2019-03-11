@@ -94,7 +94,7 @@ function onListening() {
  * Create mongoose connection
  */
 
-const mongooseURI = process.env.MONGOOSE_URI || 'mongodb://localhost/markdown';
+const mongooseURI = process.env.MONGOOSE_URI || 'mongodb://localhost/email';
 mongoose.connect(mongooseURI);
 
 module.exports = app;

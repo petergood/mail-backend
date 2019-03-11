@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/markdown-test');
+mongoose.connect('mongodb://localhost/email-test');
 
 beforeEach((done) => {
     mongoose.connection.dropDatabase(done);
